@@ -12,7 +12,9 @@ struct SwiftConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            ClinicLocationTrackerDemo()
+            //ClinicLocationTrackerDemo()
+            //HardAndOptionalTry()
+            AsyncAwait()
         }
     }
 }

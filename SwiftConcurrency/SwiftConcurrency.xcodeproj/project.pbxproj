@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100832152B82E96E00A962C8 /* HardAndOptionalTry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100832142B82E96E00A962C8 /* HardAndOptionalTry.swift */; };
+		100832172B82FC1600A962C8 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100832162B82FC1600A962C8 /* AsyncAwait.swift */; };
 		A2A619B92B0DD54E008BFB39 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */; };
 		A2A619BB2B0DD54E008BFB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619BA2B0DD54E008BFB39 /* ContentView.swift */; };
 		A2A619BD2B0DD559008BFB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A619BC2B0DD559008BFB39 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100832142B82E96E00A962C8 /* HardAndOptionalTry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardAndOptionalTry.swift; sourceTree = "<group>"; };
+		100832162B82FC1600A962C8 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		A2A619B52B0DD54E008BFB39 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		A2A619BA2B0DD54E008BFB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +61,6 @@
 		A2A619B72B0DD54E008BFB39 /* SwiftConcurrency */ = {
 			isa = PBXGroup;
 			children = (
-				A2A619C62B0DD5D3008BFB39 /* WSR */,
 				A2A619C82B0DD683008BFB39 /* Demo */,
 				A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */,
 				A2A619BA2B0DD54E008BFB39 /* ContentView.swift */,
@@ -75,25 +78,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A2A619C62B0DD5D3008BFB39 /* WSR */ = {
-			isa = PBXGroup;
-			children = (
-				A2A619C72B0DD656008BFB39 /* Views */,
-			);
-			path = WSR;
-			sourceTree = "<group>";
-		};
-		A2A619C72B0DD656008BFB39 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		A2A619C82B0DD683008BFB39 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				A2A619C92B0DD6D1008BFB39 /* ClinicLocationTrackerInfo */,
+				100832142B82E96E00A962C8 /* HardAndOptionalTry.swift */,
+				100832162B82FC1600A962C8 /* AsyncAwait.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -180,9 +170,11 @@
 			files = (
 				A2A619CF2B0DD8AB008BFB39 /* ClinicLocationTrackerInfo.swift in Sources */,
 				A2A619CB2B0DD726008BFB39 /* ClinicLocationTrackerDemo.swift in Sources */,
+				100832152B82E96E00A962C8 /* HardAndOptionalTry.swift in Sources */,
 				A2A619BB2B0DD54E008BFB39 /* ContentView.swift in Sources */,
 				A2A619CD2B0DD76D008BFB39 /* ClinicLocationTrackerViewModel.swift in Sources */,
 				A2A619B92B0DD54E008BFB39 /* SwiftConcurrencyApp.swift in Sources */,
+				100832172B82FC1600A962C8 /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

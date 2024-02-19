@@ -15,6 +15,7 @@ final class ClinicLocationTrackerViewModel: ObservableObject {
 
     public func newClinicsToTrack(clinics: [Clinic]) {
         print("**********************")
+        print("[ClinicLocationTrackerViewModel]/1 newClinicsToTrack")
         for clinic in clinics {
             let address = self.validatedClinicAddress(address: clinic.address)
             let trackerInfo = ClinicLocationTrackerInfo(clinicID: clinic.id,
@@ -26,6 +27,7 @@ final class ClinicLocationTrackerViewModel: ObservableObject {
     
     public func getGeocodeLocations() async {
         print("**********************")
+        print("[ClinicLocationTrackerViewModel]/2 getGeocodeLocations")
         let geoCoder = CLGeocoder()
         for index in 0..<locationTrackers.count {
             let clinic = locationTrackers[index]
@@ -52,6 +54,7 @@ final class ClinicLocationTrackerViewModel: ObservableObject {
 
     public func calculateRanges(riderCoordinate: CLLocationCoordinate2D) {
         print("**********************")
+        print("[ClinicLocationTrackerViewModel]/3 calculateRanges")
         for index in 0..<locationTrackers.count {
             let clinic = locationTrackers[index]
 
@@ -77,6 +80,7 @@ final class ClinicLocationTrackerViewModel: ObservableObject {
 
     public func logsForTrackData() {
         print("**********************")
+        print("[ClinicLocationTrackerViewModel]/4 logsForTrackData")
         for clinic in self.locationTrackers {
             if clinic.longitude > 0 && clinic.latitude > 0 {
                 print("[Details] ClinicID: \(clinic.clinicID), Long: \(clinic.longitude), Lat: \(clinic.latitude), Range(KM): \(clinic.rangeInKm)")

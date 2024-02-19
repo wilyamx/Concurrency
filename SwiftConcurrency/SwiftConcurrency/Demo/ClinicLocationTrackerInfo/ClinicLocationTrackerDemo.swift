@@ -13,6 +13,7 @@ struct ClinicLocationTrackerDemo: View {
     var body: some View {
         Text("Clinic Location Tracker Demo!")
             .task {
+                // Parallel or Synchronous
                 Task {
                     viewModel.newClinicsToTrack(clinics: clinics)
                     await viewModel.getGeocodeLocations()

@@ -14,6 +14,7 @@
 		109D81322B85D97B00E474B3 /* MyTaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81312B85D97B00E474B3 /* MyTaskHome.swift */; };
 		109D81342B85D9F700E474B3 /* MyTask2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81332B85D9F700E474B3 /* MyTask2.swift */; };
 		109D81362B85E18100E474B3 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81352B85E18100E474B3 /* AsyncLet.swift */; };
+		109D81382B85EAE000E474B3 /* MyTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81372B85EAE000E474B3 /* MyTaskGroup.swift */; };
 		A2A619B92B0DD54E008BFB39 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */; };
 		A2A619BB2B0DD54E008BFB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619BA2B0DD54E008BFB39 /* ContentView.swift */; };
 		A2A619BD2B0DD559008BFB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A619BC2B0DD559008BFB39 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		109D81312B85D97B00E474B3 /* MyTaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskHome.swift; sourceTree = "<group>"; };
 		109D81332B85D9F700E474B3 /* MyTask2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTask2.swift; sourceTree = "<group>"; };
 		109D81352B85E18100E474B3 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		109D81372B85EAE000E474B3 /* MyTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskGroup.swift; sourceTree = "<group>"; };
 		A2A619B52B0DD54E008BFB39 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		A2A619BA2B0DD54E008BFB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				109D81332B85D9F700E474B3 /* MyTask2.swift */,
 				109D81312B85D97B00E474B3 /* MyTaskHome.swift */,
 				109D81352B85E18100E474B3 /* AsyncLet.swift */,
+				109D81372B85EAE000E474B3 /* MyTaskGroup.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				109D81302B85C32900E474B3 /* MyTask.swift in Sources */,
 				100832172B82FC1600A962C8 /* AsyncAwait.swift in Sources */,
 				109D81342B85D9F700E474B3 /* MyTask2.swift in Sources */,
+				109D81382B85EAE000E474B3 /* MyTaskGroup.swift in Sources */,
 				109D81322B85D97B00E474B3 /* MyTaskHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

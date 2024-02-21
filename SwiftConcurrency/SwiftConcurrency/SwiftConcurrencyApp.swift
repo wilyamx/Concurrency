@@ -15,7 +15,9 @@ struct SwiftConcurrencyApp: App {
             //ClinicLocationTrackerDemo()
             //HardAndOptionalTry()
             //AsyncAwait()
-            AsyncAwait2()
+            //AsyncAwait2()
+            //MyTask()
+            MyTaskHome()
         }
     }
 }

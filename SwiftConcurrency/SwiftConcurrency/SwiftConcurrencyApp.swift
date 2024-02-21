@@ -14,7 +14,8 @@ struct SwiftConcurrencyApp: App {
             //ContentView()
             //ClinicLocationTrackerDemo()
             //HardAndOptionalTry()
-            AsyncAwait()
+            //AsyncAwait()
+            AsyncAwait2()
         }
     }
 }

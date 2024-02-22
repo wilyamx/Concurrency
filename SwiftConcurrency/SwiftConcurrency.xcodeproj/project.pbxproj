@@ -15,6 +15,7 @@
 		109D81342B85D9F700E474B3 /* MyTask2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81332B85D9F700E474B3 /* MyTask2.swift */; };
 		109D81362B85E18100E474B3 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81352B85E18100E474B3 /* AsyncLet.swift */; };
 		109D81382B85EAE000E474B3 /* MyTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109D81372B85EAE000E474B3 /* MyTaskGroup.swift */; };
+		A29722492B86F406009D9AFB /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29722482B86F406009D9AFB /* CheckedContinuation.swift */; };
 		A2A619B92B0DD54E008BFB39 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */; };
 		A2A619BB2B0DD54E008BFB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A619BA2B0DD54E008BFB39 /* ContentView.swift */; };
 		A2A619BD2B0DD559008BFB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A619BC2B0DD559008BFB39 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		109D81332B85D9F700E474B3 /* MyTask2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTask2.swift; sourceTree = "<group>"; };
 		109D81352B85E18100E474B3 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		109D81372B85EAE000E474B3 /* MyTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskGroup.swift; sourceTree = "<group>"; };
+		A29722482B86F406009D9AFB /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		A2A619B52B0DD54E008BFB39 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A619B82B0DD54E008BFB39 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		A2A619BA2B0DD54E008BFB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				109D81312B85D97B00E474B3 /* MyTaskHome.swift */,
 				109D81352B85E18100E474B3 /* AsyncLet.swift */,
 				109D81372B85EAE000E474B3 /* MyTaskGroup.swift */,
+				A29722482B86F406009D9AFB /* CheckedContinuation.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29722492B86F406009D9AFB /* CheckedContinuation.swift in Sources */,
 				109D81362B85E18100E474B3 /* AsyncLet.swift in Sources */,
 				A2A619CF2B0DD8AB008BFB39 /* ClinicLocationTrackerInfo.swift in Sources */,
 				A2A619CB2B0DD726008BFB39 /* ClinicLocationTrackerDemo.swift in Sources */,

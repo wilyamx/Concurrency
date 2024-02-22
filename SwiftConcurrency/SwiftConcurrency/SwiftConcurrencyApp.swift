@@ -17,7 +17,8 @@ struct SwiftConcurrencyApp: App {
             //AsyncAwait()
             //AsyncAwait2()
             //MyTask()
-            MyTaskHome()
+            //MyTaskHome()
+            CheckedContinuation()
         }
     }
 }

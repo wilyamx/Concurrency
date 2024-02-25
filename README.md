@@ -1,7 +1,8 @@
-# Concurrency
+# Swift Concurrency
+
 Swift Concurrency Training
 
 Inspired by
 
-* Nick
-* [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking) 
+* Nick Sarno
+* [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking)
